@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  /* background-color: rgb(131, 131, 131); */
+align-items: center;
+justify-content: center;
+}
+
+.conatiner{
+  background-color: black;
+  width: 450px;
+  height: 155px;
+  color: rgba(205, 181, 48, 0.727);
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  /* box-shadow: 2.5px 2.5px rgba(205, 181, 48, 0.727); */
+}
+.headi{
+position: relative;
+left: 75px;
+top: 20px;
+}
+.inputDiv{
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+.passInput{
+  width: 320px;
+  color: rgb(234, 177, 52);
+  border-radius: 15px;
+  margin: 3px;
+  padding: 5px;
+}
+
+.copyBtn{
+  text-decoration: none;
+  border-radius: 15px;
+  text-align: center;
+  justify-content: center;
+  text-transform: capitalize;
+  padding: 5px 15px;
+  color: rgb(234, 177, 52);
+}
+.copyBtn:hover{
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(234, 177, 52);
+}
+.mBtn{
+  gap: 10px;
+  width: 500px;
+  display: flex;
+}
+.range{
+  margin-left: 25px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  
+}
+.iRange{
+  width: 150px;
+}
